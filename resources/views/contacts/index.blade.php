@@ -12,6 +12,7 @@
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <a class="btn btn-success btn-sm" href="{{ route('contacts.create') }}"><i class="fa fa-plus"></i> Create New Contact</a>
+            <a class="btn btn-primary btn-sm" href="{{ route('upload') }}"><i class="fa fa-upload"></i> Bulk Import Contacts</a>
         </div>
 
         <table class="table table-bordered table-striped mt-4">
